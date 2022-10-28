@@ -45,10 +45,11 @@ set ttyfast                                                 " Indicates a fast t
 set updatecount=300                                         " After typing this many characters the swap file will be written to disk
 set wildmenu                                                " Display all matching files when we tab complete
 
+colorscheme nord                                            "  Load color scheme
+
 set completeopt-=preview
 set completeopt+=longest
 set shortmess+=c
-set signcolumn=yes
 
 let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSortBy="fullpath"
