@@ -48,7 +48,6 @@ set wildmenu                                                " Display all matchi
 set completeopt-=preview
 set completeopt+=longest
 set shortmess+=c
-set signcolumn=yes
 
 let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSortBy="fullpath"
